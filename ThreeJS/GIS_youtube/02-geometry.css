@@ -1,0 +1,16 @@
+* {
+  outline: none;
+  margin: 0;
+}
+
+body {
+    overflow: hidden; /*스크롤바 생기지 않도록함 */
+}
+
+#webgl-container{ /*페이지에 꽉 채움*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
