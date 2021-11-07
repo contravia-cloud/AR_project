@@ -1,8 +1,9 @@
-# aframe
+## aframe
 
 clone : https://github.com/aframevr/aframe.git
 
-## study
+## AR-VR-Using-WebXR
 
-블럭표시 VR : <https://contravia-cloud.github.io/aframe/study/ch8-1.html>
+ - 블럭표시 aframeVR  
+ <https://contravia-cloud.github.io/AR_project/AR-VR-Using-WebXR/ch8-1.html>
 
