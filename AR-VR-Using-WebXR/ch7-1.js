@@ -87,7 +87,7 @@ function onSessionStarted(session) {
     xrSession.addEventListener("end", onSessionEnd);
     setupWebGLLayer()
         .then(()=> {
-            renderer.xr.setReferenceSpaceType('local');
+            renderer.xr.setReferenceSpaceType('local-floor');
             renderer.xr.setSession(xrSession);
             animate();
         })
