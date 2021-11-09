@@ -24,8 +24,8 @@ function loadScene() {
     scene = new THREE.Scene();
 
     var light = new THREE.HemisphereLight( 0xffffff, 0xbbbbff, 1 );
-				light.position.set( 0.5, 1, 0.25 );
-                scene.add( light );
+    light.position.set( 0.5, 1, 0.25 );
+    scene.add( light );
 
     var geometry = new THREE.BoxBufferGeometry(0.2, 0.2, 0.2);
     var material = new THREE.MeshPhongMaterial({color: 0x89CFF0});
@@ -71,7 +71,7 @@ function init() {
 
 function onRequestSession() {
     console.log("requesting session");
-    navigator.xr.requestSession('immersive-ar', {requiredFeatures: ['viewer', 'local']})
+    navigator.xr.requestSession('immersive-ar', {requiredFeatures: ['viewer', 'local-floor']})
         .then(onSessionStarted)
         .catch((reason) => {
             console.log('request disabled: ' + reason);
