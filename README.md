@@ -7,7 +7,9 @@ webxr : <https://github.com/Apress/ar-vr-using-webxr-api.git>
 6. Basic WebXR (생명주기), Three.js - WebXR API 연동 VR  
  <https://contravia-cloud.github.io/AR_project/AR-VR-Using-WebXR/ch6.html>
 7. Three.js - WebXR API 연동 AR   
-<https://contravia-cloud.github.io/AR_project/AR-VR-Using-WebXR/ch7-1.html>
+<https://contravia-cloud.github.io/AR_project/AR-VR-Using-WebXR/ch7-1.html>  
+<https://contravia-cloud.github.io/AR_project/AR-VR-Using-WebXR/ch7-2.html>
+
 8. aframe VR 블럭표시  
  <https://contravia-cloud.github.io/AR_project/AR-VR-Using-WebXR/ch8-1.html>
 
