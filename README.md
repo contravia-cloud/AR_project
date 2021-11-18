@@ -13,6 +13,8 @@ webxr : <https://github.com/Apress/ar-vr-using-webxr-api.git>
 8. aframe VR 블럭표시  
  <https://contravia-cloud.github.io/AR_project/AR-VR-Using-WebXR/ch8-1.html>
 
+9. hit_test_add_model
+<https://contravia-cloud.github.io/AR_project/MyJob/hit_test_add_model.html>
 
 ```javascript
 // create context
