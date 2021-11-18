@@ -83,13 +83,11 @@
             // scene.add(mesh);
 
             const gltfLoader = new GLTFLoader();
-            gltfLoader.load(
-              "../gltf/Duck.gltf",
-              (gltf) => {
-                const root = gltf.scene;
-                scene.add(root);
-              }
-            );
+            gltfLoader.load("../gltf/Duck.gltf", (gltf) => {
+              gltf.scene.scale.set(0.025, 0.025, 0.025);
+              const root = gltf.scene;
+              scene.add(root);
+            });
           }
         }
 
