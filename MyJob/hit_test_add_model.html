@@ -84,7 +84,8 @@
 
             const gltfLoader = new GLTFLoader();
             gltfLoader.load("../gltf/Duck.gltf", (gltf) => {
-              gltf.scene.scale.set(0.025, 0.025, 0.025);
+              gltf.scene.scale.set(0.4, 0.4, 0.4);
+              console.log(gltf);
               const root = gltf.scene;
               scene.add(root);
             });
